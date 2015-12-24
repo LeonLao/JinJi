@@ -11,8 +11,11 @@
         android:layout_alignParentStart="true">
 
 
-
-
-
+        <ImageView
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:id="@+id/imageView"
+            android:layout_marginLeft="20px"
+            android:/>
     </RelativeLayout>
 </RelativeLayout>
