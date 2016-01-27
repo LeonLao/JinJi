@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="星期五"
+        android:textSize="20sp"
+        android:textColor="#e9e9e9"
+        android:id="@+id/week"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:paddingLeft="20sp"/>
+
+    <ImageView
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:id="@+id/weather"
+        android:src="@mipmap/sunshine"
+        android:layout_gravity="center"
+        android:layout_weight="2"/>
+
+    <TextView
+        android:layout_width="20sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/gaowen"
+        android:text="27"
+        android:textSize="20sp"
+        android:textColor="#ffd880"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:layout_weight="1" />
+    <TextView
+        android:layout_width="20sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/diwen"
+        android:text="20"
+        android:textSize="20sp"
+        android:textColor="#c1dfff"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+
+
+
+
+</LinearLayout>
